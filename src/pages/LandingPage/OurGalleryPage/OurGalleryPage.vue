@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts">
-import style from './OurGalleryPage.scss';
 export default {
   name: 'OurGalleryPage',
 };

@@ -8,10 +8,10 @@
 
 <script lang="ts">
 import HeaderComponent from 'src/components/HeaderComponent/HeaderComponent.vue';
-import OurEventsPage from 'src/pages/OurEventsPage/OurEventsPage.vue';
+import OurEventsPage from './OurEventsPage/OurEventsPage.vue';
 import FooterComponent from 'src/components/FooterComponent/FooterComponent.vue';
 export default {
-  name: 'LandingPage',
+  name: 'EventsPage',
   components: { HeaderComponent, OurEventsPage, FooterComponent },
   data: () => ({}),
   mounted() {},

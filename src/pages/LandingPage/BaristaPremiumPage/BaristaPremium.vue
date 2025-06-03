@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts">
-import style from './BaristaPremiumPage.scss';
 export default {
   name: 'BaristaPremiumPage',
 };

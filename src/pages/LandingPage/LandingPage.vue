@@ -11,10 +11,10 @@
 
 <script lang="ts">
 import HeaderComponent from 'src/components/HeaderComponent/HeaderComponent.vue';
-import HeroSectionPage from 'src/pages/HeroSectionPage/HeroSectionPage.vue';
-import OurPassionPage from 'src/pages/OurPassionPage/OurPassionPage.vue';
-import BaristaPremiumPage from 'src/pages/BaristaPremiumPage/BaristaPremiumPage.vue';
-import OurGalleryPage from 'src/pages/OurGalleryPage/OurGalleryPage.vue';
+import HeroSectionPage from './HeroSectionPage/HeroSectionPage.vue';
+import OurPassionPage from './OurPassionPage/OurPassionPage.vue';
+import BaristaPremiumPage from './BaristaPremiumPage/BaristaPremium.vue';
+import OurGalleryPage from './OurGalleryPage/OurGalleryPage.vue';
 import FooterComponent from 'src/components/FooterComponent/FooterComponent.vue';
 export default {
   name: 'LandingPage',

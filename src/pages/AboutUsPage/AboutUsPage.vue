@@ -9,11 +9,11 @@
 
 <script lang="ts">
 import HeaderComponent from 'src/components/HeaderComponent/HeaderComponent.vue';
-import AboutPage from 'src/pages/AboutPage/AboutPage.vue';
-import SpecialitiesPage from 'src/pages/SpecialitiesPage/SpecialitiesPage.vue';
+import AboutPage from './AboutPage/AboutPage.vue';
+import SpecialitiesPage from './SpecialtiesPage/SpecialtiesPage.vue';
 import FooterComponent from 'src/components/FooterComponent/FooterComponent.vue';
 export default {
-  name: 'LandingPage',
+  name: 'AboutUsPage',
   components: {
     HeaderComponent,
     AboutPage,

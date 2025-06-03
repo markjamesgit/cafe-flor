@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts">
-import style from './SpecialtiesPage.scss';
 export default {
   name: 'SpecialtiesPage',
 };

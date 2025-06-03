@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts">
-import style from './AboutPage.scss';
 export default {
   name: 'AboutPage',
 };
