@@ -5,6 +5,7 @@
     <OurPassionPage />
     <BaristaPremiumPage />
     <OurGalleryPage />
+    <HistoryComponent />
     <FooterComponent />
   </q-page>
 </template>
@@ -15,6 +16,7 @@ import HeroSectionPage from './HeroSectionPage/HeroSectionPage.vue';
 import OurPassionPage from './OurPassionPage/OurPassionPage.vue';
 import BaristaPremiumPage from './BaristaPremiumPage/BaristaPremiumPage.vue';
 import OurGalleryPage from './OurGalleryPage/OurGalleryPage.vue';
+import HistoryComponent from 'src/components/HistoryComponent/HistoryComponent.vue';
 import FooterComponent from 'src/components/FooterComponent/FooterComponent.vue';
 export default {
   name: 'LandingPage',
@@ -24,6 +26,7 @@ export default {
     OurPassionPage,
     BaristaPremiumPage,
     OurGalleryPage,
+    HistoryComponent,
     FooterComponent,
   },
   data: () => ({}),
