@@ -2,20 +2,30 @@
   width: 100%;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .history-content {
     display: flex;
     position: relative;
     background-color: #2f311c;
+    width: 100%;
+  }
+
+  .history-left,
+  .history-right {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
   }
 
   .history-left {
-    flex: 1;
     padding: 2rem;
-    display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    z-index: 2;
 
     .content {
       height: 100%;
@@ -65,9 +75,7 @@
   }
 
   .history-right {
-    flex: 1;
     position: relative;
-    z-index: 2;
 
     .history-image {
       width: 100%;
@@ -79,7 +87,7 @@
   .overlay-image-container {
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
     pointer-events: none;
