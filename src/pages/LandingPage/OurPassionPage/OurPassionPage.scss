@@ -22,7 +22,7 @@
 }
 
 .main-image {
-  width: 320px;
+  width: 350px;
 }
 
 .title {
@@ -71,7 +71,7 @@
 }
 
 .pastry-image {
-  width: 620px;
+  width: 650px;
 }
 
 .image-overlay-container {
@@ -101,7 +101,7 @@
   height: 100%;
   overflow: hidden;
   pointer-events: none;
-  z-index: 0;
+  z-index: -2;
 }
 
 .bg-image {
@@ -112,6 +112,7 @@
     left: 0;
     width: 500px;
     transform: rotate(5deg);
+    z-index: 2;
   }
 
   &-2 {
@@ -119,6 +120,7 @@
     right: -2%;
     width: 420px;
     transform: rotate(10deg);
+    z-index: 2;
   }
 
   &-3 {
@@ -126,6 +128,7 @@
     left: 48%;
     width: 280px;
     transform: rotate(5deg);
+    z-index: -2;
   }
 
   &-4 {
@@ -133,6 +136,7 @@
     right: 88%;
     width: 280px;
     transform: rotate(5deg);
+    z-index: 2;
   }
 }
 
