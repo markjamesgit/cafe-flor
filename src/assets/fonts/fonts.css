@@ -1,0 +1,69 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* Font Face Definitions */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1Mu4mxK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1Mu5mxK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1Mu7mxK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6VhLPw.ttf') format('truetype');
+}
+
+/* Note: Rantika font needs to be purchased or obtained from a legitimate source */
+/* Once you have the Rantika font files, add them here with the following structure: */
+/*
+@font-face {
+  font-family: 'Rantika';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Rantika-Regular.ttf') format('truetype');
+}
+*/
+
+/* Font Usage Classes */
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-abel {
+  font-family: 'Abel', sans-serif;
+}
+
+.font-rantika {
+  font-family: 'Rantika', sans-serif;
+} 
