@@ -63,15 +63,17 @@
     padding: 0 10vw;
 
     .billiard-title {
-      font-size: 75px;
-      font-weight: 600;
       font-family: 'Roboto', sans-serif;
-      text-transform: uppercase;
+      font-size: 75px;
+      font-weight: 700;
       letter-spacing: 2px;
 
       span {
+        font-family: 'Abel', 'Rantika', serif;
+        color: #7b7e3c;
         font-size: 45px;
-        color: #a3a76c;
+        font-style: italic;
+        margin-bottom: -0.5rem;
       }
     }
 

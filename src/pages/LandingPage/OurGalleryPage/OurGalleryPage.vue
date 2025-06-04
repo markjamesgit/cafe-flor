@@ -29,7 +29,7 @@
       </button>
     </div>
     <div class="gallery-instagram">
-      <span class="ig-icon">&#x1F4F7;</span>
+      <i class="fab fa-instagram"></i>
       <span class="ig-handle">@cafeflor+bar</span>
     </div>
   </div>
