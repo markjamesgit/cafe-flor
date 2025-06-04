@@ -1,0 +1,178 @@
+.gallery-page {
+  background: #f9faf1;
+  padding: 2rem 0 1.5rem 0;
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-our {
+  font-family: 'Abel', 'Rantika', serif;
+  color: #7b7e3c;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: -0.5rem;
+}
+
+.gallery-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #181818;
+}
+
+.gallery-carousel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 2500px;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-images-viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.gallery-images {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  will-change: transform;
+  justify-content: flex-start;
+}
+
+.gallery-images img {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery-images img.active {
+  opacity: 1;
+  transform: scale(1.09);
+}
+
+.gallery-instagram {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.ig-icon {
+  font-size: 1.2rem;
+}
+.ig-handle {
+  letter-spacing: 1px;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(135deg, #f8f8ed 60%, #bfc47a 100%);
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 3rem;
+  color: #7b7e3c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(191, 196, 122, 0.18);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s,
+    transform 0.2s;
+  z-index: 10;
+  opacity: 0.95;
+}
+.gallery-arrow.left {
+  left: 2vw;
+}
+.gallery-arrow.right {
+  right: 2vw;
+}
+.gallery-arrow:hover:not(:disabled) {
+  background: linear-gradient(135deg, #bfc47a 60%, #f8f8ed 100%);
+  color: #222;
+  box-shadow: 0 8px 32px rgba(191, 196, 122, 0.28);
+  transform: scale(1.12);
+}
+.gallery-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1200px) {
+  .gallery-images img {
+    min-width: 220px;
+    min-height: 220px;
+    width: 38vw;
+    height: 48vw;
+    max-width: 98vw;
+    max-height: 60vw;
+  }
+  .gallery-arrow {
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .gallery-carousel {
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .gallery-images-viewport {
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .gallery-images img {
+    width: 80vw;
+    height: 60vw;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 98vw;
+    max-height: 60vw;
+  }
+  .gallery-arrow {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+    left: 1vw;
+    right: 1vw;
+  }
+}
