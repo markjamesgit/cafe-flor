@@ -13,7 +13,7 @@
 import HeaderComponent from 'src/components/HeaderComponent/HeaderComponent.vue';
 import HeroSectionPage from './HeroSectionPage/HeroSectionPage.vue';
 import OurPassionPage from './OurPassionPage/OurPassionPage.vue';
-import BaristaPremiumPage from './BaristaPremiumPage/BaristaPremium.vue';
+import BaristaPremiumPage from './BaristaPremiumPage/BaristaPremiumPage.vue';
 import OurGalleryPage from './OurGalleryPage/OurGalleryPage.vue';
 import FooterComponent from 'src/components/FooterComponent/FooterComponent.vue';
 export default {
