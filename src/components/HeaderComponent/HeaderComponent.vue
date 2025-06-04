@@ -2,10 +2,10 @@
   <header class="header">
     <!-- Left Navigation -->
     <nav class="nav-links">
-      <a href="/" class="nav-item">HOME</a>
-      <a href="/about" class="nav-item">ABOUT US</a>
-      <a href="/contact" class="nav-item">CONTACT US</a>
-      <a href="/events" class="nav-item">EVENTS</a>
+      <router-link to="/" class="nav-item" active-class="active" exact>HOME</router-link>
+      <router-link to="/about" class="nav-item" active-class="active">ABOUT US</router-link>
+      <router-link to="/contact" class="nav-item" active-class="active">CONTACT US</router-link>
+      <router-link to="/events" class="nav-item" active-class="active">EVENTS</router-link>
     </nav>
 
     <!-- Center Logo -->
