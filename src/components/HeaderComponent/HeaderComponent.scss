@@ -1,0 +1,163 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 10vh;
+  border-bottom: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+
+  // Left Navigation
+  .nav-links {
+    display: flex;
+    gap: 4rem;
+    width: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    min-width: 600px;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+
+    .nav-item {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-size: 18px;
+      transition: color 0.3s ease;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+
+  // Center Logo
+  .logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    padding: 0.8rem 0;
+    background: #060606;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+    }
+  }
+
+  // Right Section
+  .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    min-width: 600px;
+    height: 100%;
+
+    // Social Media Links
+    .social-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.5rem 1rem;
+      border-right: 1px solid white;
+      height: 100%;
+
+      .social-icon {
+        color: white;
+        font-size: 24px;
+        transition: color 0.3s ease;
+        white-space: nowrap;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+
+    // Contact Info
+    .contact-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      font-size: 18px;
+      height: 100%;
+      width: 100%;
+      white-space: nowrap;
+      color: white;
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
+
+// Add Roboto font import
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+// Responsive Design
+@media (max-width: 768px) {
+  .header {
+    padding: 0 1rem;
+    height: auto;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+
+    .nav-links {
+      width: 100%;
+      min-width: unset;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      border: none;
+    }
+
+    .logo-container {
+      position: relative;
+      left: 0;
+      transform: none;
+      bottom: 0;
+      margin: 1rem auto;
+      background: transparent;
+    }
+
+    .right-section {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+      gap: 1rem;
+
+      .social-links,
+      .contact-info {
+        width: 100%;
+        justify-content: center;
+        border: none;
+      }
+    }
+  }
+}
