@@ -1,9 +1,8 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">Welcome to Cafe Flor</h1>
-      <p class="hero-subtitle">Experience the perfect blend of coffee and comfort</p>
-      <button class="hero-button">Explore Menu</button>
+      <h1 class="hero-title">CAFE FLOR + BAR</h1>
+      <p class="hero-subtitle">SIP. SAVOR. BLOOM.</p>
     </div>
   </section>
 </template>
