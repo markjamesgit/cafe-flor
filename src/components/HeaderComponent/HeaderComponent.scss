@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,6 +12,8 @@
   height: 10vh;
   border-bottom: 1px solid white;
   font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
 
   // Left Navigation
   .nav-links {
@@ -133,9 +136,6 @@
     }
   }
 }
-
-// Add Roboto font import
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
 
 // Responsive Design
 @media (max-width: 768px) {

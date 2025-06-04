@@ -13,10 +13,10 @@
         <div class="footer-box">
           <span class="footer-label">FOLLOW US ON</span>
           <div class="footer-socials">
-            <a href="https://facebook.com" target="_blank" class="social-icon">
+            <a href="https://www.facebook.com/cafeflorandbar" target="_blank" class="social-icon">
               <i class="fab fa-facebook"></i>
             </a>
-            <a href="https://instagram.com" target="_blank" class="social-icon">
+            <a href="https://www.instagram.com/cafeflorplusbar" target="_blank" class="social-icon">
               <i class="fab fa-instagram"></i>
             </a>
             <a href="https://tiktok.com" target="_blank" class="social-icon">
