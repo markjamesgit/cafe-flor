@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+.our-passion-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #060606;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20rem 10vw;
+  gap: 4vw;
+}
+
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.bg-image {
+  position: absolute;
+
+  &-2 {
+    top: 8%;
+    right: -2%;
+    width: 420px;
+    transform: rotate(10deg);
+    z-index: 2;
+  }
+}
+
+.our-passion-container {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 5rem;
+
+  .first-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 100%;
+
+    p {
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #a3a76c;
+    }
+
+    .horizontal-line {
+      margin-top: 1.5rem;
+      width: 16%;
+      height: 2px;
+      background-color: #a3a76c;
+    }
+  }
+
+  .second-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+
+    img {
+      width: 367px;
+      height: auto;
+    }
+  }
+}
