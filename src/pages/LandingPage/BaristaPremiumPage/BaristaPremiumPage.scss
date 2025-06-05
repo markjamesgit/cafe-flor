@@ -54,6 +54,18 @@
   align-items: center;
   justify-content: center;
   color: white;
+  z-index: 1;
+
+  .line-vertical {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 200px;
+    background-color: #7b7e3c;
+    z-index: 3;
+  }
 
   .billiard-content {
     position: relative;
@@ -87,6 +99,35 @@
   }
 }
 
+.sections-container {
+  position: relative;
+  width: 100%;
+}
+
+.line-container {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 4%;
+  border: 1px solid #7b7e3c;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.line-container2 {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 4%;
+  border: 1px solid #7b7e3c;
+  z-index: 3;
+  pointer-events: none;
+}
+
 .our-passion-container {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -98,6 +139,8 @@
   min-height: 100vh;
   padding: 20rem 10vw;
   gap: 4vw;
+  position: relative;
+  z-index: 1;
 }
 
 .left-section {
@@ -231,11 +274,6 @@
     transform: rotate(5deg);
     z-index: -2;
   }
-}
-
-.our-passion-container {
-  position: relative;
-  z-index: 1;
 }
 
 .barista-premium {

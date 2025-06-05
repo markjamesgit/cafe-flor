@@ -5,7 +5,9 @@
       <span class="gallery-title">GALLERY</span>
     </div>
     <div class="gallery-carousel">
-      <button class="gallery-arrow left" @click="prev" :disabled="currentIndex === 0">&#60;</button>
+      <button class="gallery-arrow left" @click="prev" :disabled="currentIndex === 0">
+        <i class="fas fa-chevron-left"></i>
+      </button>
       <div class="gallery-images-viewport">
         <div
           class="gallery-images"
@@ -25,7 +27,7 @@
         @click="next"
         :disabled="currentIndex >= images.length - imagesToShow"
       >
-        &#62;
+        <i class="fas fa-chevron-right"></i>
       </button>
     </div>
     <div class="gallery-instagram">
@@ -43,15 +45,7 @@ import gallery2 from '../../../assets/background-images/gallery2.png';
 import gallery3 from '../../../assets/background-images/gallery3.png';
 import gallery4 from '../../../assets/background-images/gallery4.png';
 
-const images = [
-  gallery1,
-  gallery1,
-  gallery1,
-  gallery2,
-  gallery3,
-  gallery4,
-  // Add more images as needed
-];
+const images = [gallery1, gallery1, gallery1, gallery2, gallery3, gallery4];
 
 const imagesToShow = ref(4);
 if (window.innerWidth < 900) imagesToShow.value = 2;

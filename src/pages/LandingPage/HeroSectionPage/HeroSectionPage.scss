@@ -36,6 +36,18 @@
       font-family: 'Abel', sans-serif;
     }
   }
+
+  .line-container {
+    position: absolute;
+    top: 104%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 16%;
+    border: 1px solid #7b7e3c;
+    z-index: 3;
+    pointer-events: none;
+  }
 }
 
 // Responsive Design

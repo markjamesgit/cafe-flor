@@ -4,6 +4,7 @@
       <h1 class="hero-title">CAFE FLOR + BAR</h1>
       <p class="hero-subtitle">SIP. SAVOR. BLOOM.</p>
     </div>
+    <div class="line-container"></div>
   </section>
 </template>
 

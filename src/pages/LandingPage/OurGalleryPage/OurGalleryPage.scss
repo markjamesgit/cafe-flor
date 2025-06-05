@@ -28,7 +28,7 @@
   font-size: 75px;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #181818;
+  color: #060606;
 }
 
 .gallery-carousel {
@@ -37,7 +37,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  max-width: 2500px;
   margin-bottom: 1.5rem;
 }
 
@@ -66,7 +65,7 @@
 
 .gallery-images img {
   flex: 0 0 auto;
-  width: 500px;
+  width: 470px;
   max-width: 90vw;
   min-width: 220px;
   height: 400px;
@@ -95,7 +94,7 @@
   border-radius: 4px;
   width: 50px;
   height: 44px;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: black;
   cursor: pointer;
   z-index: 10;
