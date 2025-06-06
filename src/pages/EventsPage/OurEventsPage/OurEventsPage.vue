@@ -1,8 +1,9 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">OUR</h1>
-      <p class="hero-subtitle">EVENTS</p>
+      <h1 class="billiard-title">
+        <span>Our<br /></span>EVENTS
+      </h1>
     </div>
   </section>
 

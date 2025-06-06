@@ -18,20 +18,17 @@
     max-width: 1100px;
     padding: 0 10vw;
 
-    .hero-title {
-      font-family: 'Abel', 'Rantika', serif;
-      color: #a3a76c;
-      font-size: 45px;
-      font-style: italic;
+    .billiard-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 65px;
       font-weight: 600;
       letter-spacing: 2px;
-    }
 
-    .hero-subtitle {
-      font-size: 5rem;
-      font-weight: 600;
-      color: white;
-      font-family: 'Roboto', sans-serif;
+      span {
+        font-family: 'Abel', 'Rantika', serif;
+        color: #a3a76c;
+        font-size: 45px;
+      }
     }
   }
 }
@@ -114,4 +111,95 @@
 .page-text {
   font-weight: 300;
   color: #fff;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero-section {
+    position: relative;
+
+    .hero-content {
+      position: relative;
+
+      .hero-title {
+        font-size: 35px;
+        font-weight: 600;
+      }
+
+      .hero-subtitle {
+        font-size: 4rem;
+        font-weight: 600;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+  }
+
+  .pagination-container {
+    padding: 5rem 10vw;
+  }
+
+  .grid-container {
+    column-gap: 1rem;
+  }
+
+  .grid-item {
+    .item-image {
+      height: 250px;
+    }
+
+    .billiard-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 65px;
+      font-weight: 700;
+      letter-spacing: 2px;
+
+      span {
+        font-family: 'Abel', 'Rantika', serif;
+        color: #a3a76c;
+        font-size: 45px;
+      }
+    }
+  }
+
+  .loading-state {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+  }
+
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+
+  .pagination-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .current-page {
+      padding: 0.5rem 1rem;
+      min-width: 40px;
+      text-align: center;
+      cursor: pointer;
+
+      &:not(.active) {
+        color: #fff;
+      }
+
+      &.active {
+        border: 1px solid #fff;
+        color: #fff;
+      }
+    }
+  }
+
+  .page-text {
+    font-weight: 300;
+    color: #fff;
+  }
 }
