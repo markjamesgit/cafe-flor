@@ -86,3 +86,53 @@
     }
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .our-passion-container {
+    padding: 0 10vw;
+  }
+
+  .background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -2;
+  }
+
+  .bg-image {
+    position: absolute;
+
+    &-2 {
+      top: 8%;
+      right: -2%;
+      width: 420px;
+      transform: rotate(10deg);
+      z-index: 2;
+    }
+  }
+
+  .container {
+    gap: 3rem;
+
+    .first-section {
+      gap: 1rem;
+
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    .second-section {
+      gap: 1rem;
+
+      img {
+        width: auto;
+        height: 425px;
+      }
+    }
+  }
+}
