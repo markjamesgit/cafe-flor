@@ -42,7 +42,7 @@
     <div class="right-section">
       <div class="sip-blooms">
         <h2>Where every sip blooms.</h2>
-        <p>
+        <p class="description">
           Step into a place where flavor blossoms with every pour. From aromatic coffees to crafted
           cocktails, each sip is a moment of beauty waiting to unfold. Welcome to Cafe Flor + Bar
         </p>
