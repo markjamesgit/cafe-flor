@@ -103,3 +103,34 @@
     }
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .history-container {
+    .history-left {
+      .history-title {
+        font-size: 55px;
+        font-weight: 500;
+      }
+
+      .history-description {
+        max-width: 500px;
+        font-weight: 300;
+        font-size: 1rem;
+      }
+
+      .read-more-btn {
+        padding: 0.6rem 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+      }
+    }
+
+    .overlay-image-container {
+
+      .overlay-image {
+        max-width: 180px;
+      }
+    }
+  }
+}
