@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 .our-passion-container {
   font-family: 'Roboto', sans-serif;
@@ -132,6 +133,57 @@
       img {
         width: auto;
         height: 425px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .our-passion-container {
+    padding: 0 10vw;
+  }
+
+  .background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -2;
+  }
+
+  .bg-image {
+    position: absolute;
+
+    &-2 {
+      top: 8%;
+      right: -2%;
+      width: 420px;
+      transform: rotate(10deg);
+      z-index: 2;
+    }
+  }
+
+  .container {
+    gap: 3rem;
+
+    .first-section {
+      gap: 1rem;
+
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    .second-section {
+      gap: 1rem;
+      justify-content: space-between;
+
+      img {
+        width: auto;
+        height: 470px;
       }
     }
   }
