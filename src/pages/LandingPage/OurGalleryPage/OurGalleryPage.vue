@@ -30,7 +30,14 @@
         <i class="fas fa-chevron-right"></i>
       </button>
     </div>
-    <div class="gallery-instagram">
+    <div
+      data-aos="fade-down"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-out"
+      class="gallery-instagram"
+    >
       <i class="fab fa-instagram"></i>
       <span class="ig-handle">@cafeflor+bar</span>
     </div>

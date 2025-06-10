@@ -9,11 +9,25 @@
     </div>
 
     <div class="container">
-      <div class="first-section">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="first-section"
+      >
         <p>OUR SPECIALTIES</p>
         <div class="horizontal-line"></div>
       </div>
-      <div class="second-section">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="second-section"
+      >
         <img src="../../../assets/background-images/special1.png" alt="" />
         <img src="../../../assets/background-images/special2.png" alt="" />
         <img src="../../../assets/background-images/special3.png" alt="" />

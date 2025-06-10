@@ -92,15 +92,7 @@
     }
 
     .line-container {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 2px;
-      height: 10%;
-      border: 1px solid #7b7e3c;
-      z-index: 3;
-      pointer-events: none;
+      display: none;
     }
   }
 }

@@ -2,15 +2,36 @@
   <div>
     <footer class="footer-container">
       <div class="footer-content">
-        <div class="footer-box">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="footer-box"
+        >
           <span class="footer-label">OPENING HOURS</span>
           <span class="footer-value">2:00 PM TO 12:00 MN</span>
         </div>
-        <div class="footer-box">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="footer-box"
+        >
           <span class="footer-label">STORE BRANCH LOCATION</span>
           <span class="footer-value">SAN PEDRO, HAGONOY, BULACAN</span>
         </div>
-        <div class="footer-box">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="footer-box"
+        >
           <span class="footer-label">FOLLOW US ON</span>
           <div class="footer-socials">
             <a href="https://www.facebook.com/cafeflorandbar" target="_blank" class="social-icon">

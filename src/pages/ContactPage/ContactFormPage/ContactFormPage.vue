@@ -1,14 +1,28 @@
 <template>
   <div class="main-container">
     <div class="hero-section">
-      <div class="hero-content">
+      <div
+        data-aos="zoom-out"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="hero-content"
+      >
         <h1 class="hero-title">Find Us</h1>
         <p class="hero-subtitle">CONTACT</p>
       </div>
     </div>
 
     <div class="container">
-      <div class="left-section">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="left-section"
+      >
         <h5 class="title">OPENNING HOURS</h5>
         <div class="rows">
           <div class="data-row">
@@ -35,7 +49,14 @@
           </div>
         </div>
       </div>
-      <div class="right-section">
+      <div
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="right-section"
+      >
         <div class="form card">
           <div class="form-group">
             <label for="name">Your Name</label>

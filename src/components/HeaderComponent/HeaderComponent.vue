@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header data-aos="fade-down" class="header">
     <!-- Burger Menu (Mobile Only) -->
     <button class="burger" @click="toggleMenu" aria-label="Open navigation" v-if="isMobile">
       <span :class="{ open: menuOpen }"></span>

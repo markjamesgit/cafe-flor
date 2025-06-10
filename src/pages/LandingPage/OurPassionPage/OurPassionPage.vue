@@ -25,13 +25,34 @@
     <div class="left-section">
       <div class="image-overlay-container">
         <img
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
           src="../../../assets/background-images/our-passion-bg1.png"
           alt="Espresso Machine"
           class="main-image"
         />
-        <h1 class="title overlay">OUR PASSIONS</h1>
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="title overlay"
+        >
+          OUR PASSIONS
+        </h1>
       </div>
-      <p class="description">
+      <p
+        data-aos="fade"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="description"
+      >
         A story brewed with passion, poured with purpose, and served with heart. We're more than
         just a place to grab your morning coffee or unwind with an evening drink; we're a
         destination where comfort meets craft. By day, the rich aroma of freshly ground beans
@@ -41,14 +62,34 @@
     </div>
     <div class="right-section">
       <div class="sip-blooms">
-        <h2>Where every sip blooms.</h2>
-        <p class="description">
+        <h2
+          data-aos="fade"
+          data-aos-delay="100"
+          data-aos-duration="2000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+        >
+          Where every sip blooms.
+        </h2>
+        <p
+          data-aos="fade"
+          data-aos-delay="200"
+          data-aos-duration="2000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="description"
+        >
           Step into a place where flavor blossoms with every pour. From aromatic coffees to crafted
           cocktails, each sip is a moment of beauty waiting to unfold. Welcome to Cafe Flor + Bar
         </p>
       </div>
       <div class="pastry-image-container">
         <img
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
           src="../../../assets/background-images/our-passion-bg2.png"
           alt="Pastry and Coffee"
           class="pastry-image"

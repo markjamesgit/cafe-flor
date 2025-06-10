@@ -1,7 +1,14 @@
 <template>
   <section class="hero-section">
     <div class="hero-content">
-      <h1 class="billiard-title">
+      <h1
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        class="billiard-title"
+      >
         <span>Our<br /></span>EVENTS
       </h1>
     </div>
@@ -9,7 +16,16 @@
 
   <section class="pagination-container">
     <div v-if="items.length > 0" class="grid-container">
-      <div v-for="(item, index) in displayedItems" :key="index" class="grid-item">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        v-for="(item, index) in displayedItems"
+        :key="index"
+        class="grid-item"
+      >
         <img
           :src="item.image"
           :alt="item.title"

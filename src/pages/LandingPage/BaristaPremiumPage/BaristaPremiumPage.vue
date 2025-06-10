@@ -2,9 +2,33 @@
   <div class="sections-container">
     <section class="hero-section">
       <div class="hero-content">
-        <img src="../../../assets/logo/bp-logo.png" alt="Barista Premium Logo" />
-        <h1 class="hero-title">BARISTA PREMIUM</h1>
-        <p class="hero-subtitle">
+        <img
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          src="../../../assets/logo/bp-logo.png"
+          alt="Barista Premium Logo"
+        />
+        <h1
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="hero-title"
+        >
+          BARISTA PREMIUM
+        </h1>
+        <p
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="hero-subtitle"
+        >
           Blending innovation with bold flavor, we bring premium quality to every cup, empowering
           partners to accelerate the market with confidence and distinction.
         </p>
@@ -42,29 +66,78 @@
       </div>
       <div class="barista-premium">
         <div class="first-row">
-          <img src="../../../assets/background-images/exp1.png" alt="Barista Premium" />
-          <p class="description">
+          <img
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            src="../../../assets/background-images/exp1.png"
+            alt="Barista Premium"
+          />
+          <p
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            class="description"
+          >
             Where great vibes and even greater brews come together. Let's make your day delicious.
           </p>
         </div>
         <div class="second-row">
           <img
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
             class="exp1-img"
             src="../../../assets/background-images/exp2.png"
             alt="Barista Premium"
           />
           <div class="text-container">
-            <p class="left-text">DELIGHTFULL</p>
-            <p class="right-text">EXPERIENCE</p>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              class="left-text"
+            >
+              DELIGHTFULL
+            </p>
+            <p
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              class="right-text"
+            >
+              EXPERIENCE
+            </p>
           </div>
           <img
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
             class="exp2-img"
             src="../../../assets/background-images/exp3.png"
             alt="Barista Premium"
           />
         </div>
         <div class="third-row">
-          <p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+          >
             Indulge in elevated taste and timeless ambiance. This is more than coffee and bar, it's
             a premium experience, made just for you.
           </p>
@@ -74,10 +147,24 @@
     <div class="line-container"></div>
     <section class="billiard-section">
       <div class="billiard-content">
-        <h1 class="billiard-title">
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="billiard-title"
+        >
           <span>The<br /></span>BAR
         </h1>
-        <p class="billiard-subtitle">
+        <p
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          class="billiard-subtitle"
+        >
           Kick back, cue up, and let the night roll at THE BAR. With cold drinks in hand, good music
           in the air, and billiards ready for the taking, it's the perfect spot to unwind and vibe
           with friends. Whether you're starting the night or staying 'til last call, THE BAR brings
