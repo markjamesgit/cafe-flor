@@ -215,3 +215,65 @@
     color: #fff;
   }
 }
+
+@media (max-width: 600px) {
+  .hero-section {
+    height: 40vh;
+    background-position: center;
+
+    .hero-content {
+      padding: 0 1rem;
+
+      .billiard-title {
+        font-size: 2.5rem;
+        span {
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+
+  .pagination-container {
+    padding: 3rem 1rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .grid-item {
+    .item-image {
+      height: 200px;
+    }
+
+    .item-title {
+      font-size: 1.25rem;
+    }
+
+    .item-subtitle {
+      font-size: 0.95rem;
+    }
+  }
+
+  .pagination-controls {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pagination-info {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .current-page {
+      padding: 0.4rem 0.75rem;
+      font-size: 0.95rem;
+    }
+  }
+
+  .page-text {
+    font-size: 0.9rem;
+  }
+}
