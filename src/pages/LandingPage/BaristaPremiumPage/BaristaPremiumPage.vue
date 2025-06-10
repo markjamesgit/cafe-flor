@@ -43,7 +43,7 @@
       <div class="barista-premium">
         <div class="first-row">
           <img src="../../../assets/background-images/exp1.png" alt="Barista Premium" />
-          <p>
+          <p class="description">
             Where great vibes and even greater brews come together. Let's make your day delicious.
           </p>
         </div>
