@@ -30,8 +30,7 @@
         font-family: 'Praise', cursive;
         font-weight: 400;
         font-size: 3rem;
-        font-style: italic;
-        color: #a3a76c;
+        color: #7b7e3c;
       }
     }
   }
@@ -220,14 +219,24 @@
   .hero-section {
     height: 40vh;
     background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .hero-content {
       padding: 0 1rem;
+      text-align: center;
+      margin: 0 auto;
 
       .billiard-title {
+        margin: 0 auto;
+        text-align: center;
         font-size: 2.5rem;
+        display: inline-block;
+
         span {
-          font-size: 1.75rem;
+          font-size: 2rem;
         }
       }
     }
