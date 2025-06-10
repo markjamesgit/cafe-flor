@@ -562,3 +562,115 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .our-passion-container {
+    padding: 5rem 5vw;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .first-row,
+  .second-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .first-row {
+    .left-section {
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+      }
+
+      p {
+        font-size: 2rem;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%, -50%);
+        font-weight: 600;
+        white-space: normal;
+        text-align: center;
+      }
+    }
+
+    .right-section {
+      flex-direction: column;
+      align-items: center;
+
+      .top-section {
+        p {
+          text-align: center;
+          font-size: 1.5rem;
+        }
+        .description {
+          text-align: justify;
+          font-size: 1rem;
+          line-height: 1.6rem;
+        }
+      }
+
+      .bottom-section {
+        width: 100%;
+        .horizontal-line {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .second-row {
+    .left-side {
+      max-width: 100%;
+      justify-content: center;
+
+      img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        bottom: 0%;
+        right: 50%;
+        transform: translateX(50%);
+        font-size: 2.5rem;
+        text-align: center;
+        white-space: normal;
+      }
+    }
+
+    .right-side {
+      max-width: 100%;
+      gap: 1.5rem;
+
+      .top-section2 {
+        p {
+          text-align: justify;
+          font-size: 1.5rem;
+        }
+
+        .description2 {
+          font-size: 1rem;
+          line-height: 1.6rem;
+        }
+      }
+
+      .bottom-section2 {
+        .horizontal-line2 {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .bg-image {
+    &-1,
+    &-2,
+    &-3 {
+      display: none; // Hides cluttered background for mobile
+    }
+  }
+}
