@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -9,6 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
   color: white;
 
   .hero-content {
@@ -20,10 +25,9 @@
     margin-top: 5vh;
 
     .hero-title {
-      font-size: 4rem;
-      font-weight: 700;
+      font-size: 3rem;
+      font-weight: 600;
       margin-bottom: 1rem;
-      font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
@@ -33,7 +37,6 @@
       font-weight: 400;
       margin-bottom: 1rem;
       color: #a3a76c;
-      font-family: 'Abel', sans-serif;
     }
   }
 
@@ -50,18 +53,17 @@
   }
 }
 
-// Responsive Design
-@media (max-width: 768px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .hero-section {
     .hero-content {
-      margin-top: 15vh;
+      max-width: 1000px;
 
       .hero-title {
-        font-size: 2.5rem;
+        font-size: 5rem;
       }
 
       .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 2rem;
       }
     }
   }
