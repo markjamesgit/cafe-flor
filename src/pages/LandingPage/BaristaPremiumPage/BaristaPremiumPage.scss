@@ -85,7 +85,8 @@
       letter-spacing: 2px;
 
       span {
-        font-family: 'Abel', 'Rantika', serif;
+        font-family: 'Praise', cursive;
+        font-weight: 400;
         color: #7b7e3c;
         font-size: 45px;
         font-style: italic;
@@ -402,22 +403,24 @@
       padding: 0 10vw;
 
       .billiard-title {
-        font-family: 'Roboto', sans-serif;
-        font-size: 65px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 4rem;
         font-weight: 600;
         letter-spacing: 2px;
 
         span {
-          font-family: 'Abel', 'Rantika', serif;
+          font-family: 'Praise', cursive;
+          font-weight: 400;
           color: #a3a76c;
-          font-size: 45px;
+          font-size: 3rem;
         }
       }
 
       .billiard-subtitle {
-        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
         font-weight: 300;
-        max-width: 400px;
+        max-width: 420px;
       }
     }
   }
