@@ -13,6 +13,11 @@ export default defineConfig((/* ctx */) => {
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
     boot: ['aos'],
 
+    htmlVariables: {
+      productName: 'Cafe Flor',
+      productDescription: 'A beautiful Quasar project with Vue 3 and Vite',
+    },
+
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#css
     css: ['app.scss'],
 
