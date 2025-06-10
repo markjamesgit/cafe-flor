@@ -36,12 +36,38 @@
       padding: 0 0.55rem;
       font-weight: 500;
       font-size: 1.125rem;
-      transition: all 0.3s ease;
+      transition:
+        color 0.3s,
+        opacity 0.3s;
       height: 100%;
       display: flex;
       align-items: center;
       white-space: nowrap;
       position: relative;
+      overflow: hidden;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, #a3a76c 0%, #fffbe6 100%);
+        transform: scaleX(0);
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0.7;
+        pointer-events: none;
+      }
+
+      &::before {
+        top: 0;
+        transform-origin: left;
+      }
+      &::after {
+        bottom: 0;
+        transform-origin: right;
+      }
 
       &.active {
         color: white;
@@ -60,8 +86,26 @@
       }
 
       &:hover {
-        color: white;
+        color: #fff;
         opacity: 1;
+
+        &::before {
+          transform: scaleX(1);
+        }
+        &::after {
+          transform: scaleX(1);
+        }
+      }
+
+      // Optional: subtle letter spacing and scale on hover
+      &:hover {
+        letter-spacing: 0.5px;
+        transform: scale(1.05);
+        transition:
+          color 0.3s,
+          opacity 0.3s,
+          letter-spacing 0.3s,
+          transform 0.3s;
       }
     }
   }
@@ -109,11 +153,37 @@
       .social-icon {
         color: white;
         font-size: 1.5rem;
-        transition: color 0.3s ease;
+        transition:
+          color 0.3s,
+          transform 0.3s,
+          filter 0.3s;
         white-space: nowrap;
+        position: relative;
 
+        // Advanced hover effect
         &:hover {
-          color: rgba(255, 255, 255, 0.8);
+          color: #a3a76c;
+          transform: scale(1.15) rotate(-8deg);
+          filter: drop-shadow(0 2px 8px #a3a76c88);
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          left: 50%;
+          bottom: -6px;
+          transform: translateX(-50%) scaleX(0);
+          width: 70%;
+          height: 3px;
+          background: linear-gradient(90deg, #a3a76c 0%, #fffbe6 100%);
+          border-radius: 2px;
+          opacity: 0.7;
+          transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          pointer-events: none;
+        }
+
+        &:hover::after {
+          transform: translateX(-50%) scaleX(1);
         }
       }
     }

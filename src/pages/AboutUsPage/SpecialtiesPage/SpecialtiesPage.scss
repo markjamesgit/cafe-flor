@@ -84,6 +84,16 @@
     img {
       width: 367px;
       height: auto;
+      transition:
+        transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05) rotate(-2deg);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+        z-index: 3;
+      }
     }
   }
 }
